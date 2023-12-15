@@ -1,10 +1,6 @@
 const { createApp, ref } = Vue
+  import App from './views/App.vue'
 
-  createApp({
-    setup() {
-      const message = ref('Hello Sandra!')
-      return {
-        message
-      }
-    }
-  }).mount('#app')
+  const app = Vue.createApp({App})
+
+  app.mount('#app')
