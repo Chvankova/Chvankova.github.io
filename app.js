@@ -1,1 +1,5 @@
-console.log('vue is connected, and I am very happy with that')
+
+import App from './App.vue'
+const app = Vue.createApp(App)
+
+app.mount("#app")
