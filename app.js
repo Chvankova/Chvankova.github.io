@@ -1,0 +1,1 @@
+console.log('vue is connected, and I am very happy with that')
